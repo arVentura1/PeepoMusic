@@ -11,9 +11,9 @@
                     <a href="acercaDe.php" class="page-section-heading enlaces text-uppercase mb-4 text-white"><?= $lang['about'] ?></a>
                 </h4>
                 <p class="lead mb-0">
-                    Avenida del aeropuerto
+                    I.E.S.Trassierra - Avda Arroyo del moro s/n
                     <br />
-                    14004, Córdoba
+                    (Córdoba) C.P: 14011
                 </p>
                 <p class="mt-1">
                     <a href="<?= basename($_SERVER['PHP_SELF'], ".php") ?>.php?lang=es" class="enlaces" style="text-decoration: none;">
@@ -31,10 +31,10 @@
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <h4 class="text-uppercase mb-4"><?= $lang['socialMedia'] ?></h4>
                 <!-- canal de youtube poner el enlace del video demostrativo de la plataforma -->
-                <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-youtube"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://youtu.be/38D7_tJFjRg"><i class="fab fa-youtube"></i></a>
                 <!-- enlace del codigo del proyecto en github -->
-                <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-github"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/andresruizventura"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://github.com/arVentura1/PeepoMusic"><i class="fab fa-github"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.linkedin.com/in/andresruizventura"><i class="fab fa-fw fa-linkedin-in"></i></a>
                 <a class="btn btn-outline-light btn-social mx-1" href="acercaDe.php"><i class="fas fa-info"></i></a>
             </div>
             <!-- footer sobre nosotros -->

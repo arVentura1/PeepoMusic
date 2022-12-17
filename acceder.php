@@ -106,9 +106,6 @@ else if (isset($_REQUEST['registerUser'])) {
                 //enviar correo de registro
                 $correoUsu = $email;
                 $nickNameUsu = $nickname;
-                //echo "correoUsu: ".$email;
-                //echo "<br>nickNameUsu: ".$nickNameUsu;
-
                 include 'enviarCorreoRegister.php';
             }
 
